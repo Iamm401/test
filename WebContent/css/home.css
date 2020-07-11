@@ -1,0 +1,149 @@
+*{
+	 margin:0px;
+	 padding:0px;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f9f9f9;
+	overflow-x: hidden;
+}
+
+.container_{
+	
+} 
+.post_list{
+	margin: 30px 10px; 
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    gap:12px;
+}
+.post_enterprise_name{
+	font-weight: 444;
+	font-size: 20px;
+}
+.post_enterprise_name:hover{
+	color: #1625D7;
+	opacity: 0.8;
+	transform: scale(1.01);
+}
+.post_item{
+	position:relative;
+	padding: 20px;
+	background-color: #fff;
+	border: 0.5px solid #eee;
+	border-radius: 10px;
+	cursor: pointer;	
+	transition: all 0.666s;
+} 
+.post_item:hover{
+	box-shadow: 0 0 10px #ccc;
+	transition: all 0.666s;
+	transform: scale(1.01);
+}
+.post_job_demands{
+	word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 4; 
+    overflow: hidden;
+}
+.post_info_item{
+	padding: 2px 1px;
+	
+}
+.post_info_item>span{
+	font-weight: 500;
+	color:#777;
+	padding-right: 5px;
+}
+.tip{
+	color:#999;
+	font-size: 12px;
+}
+.fill_up{
+	position: absolute;
+	 top: 0;
+	 right: 0;
+}
+.fill_up>img{
+	width: 40px;
+	height: 40px;
+}
+.ping_{
+	position: absolute;
+	top: 4px;
+	right: 4px;
+} 
+.ping_>img{
+	width: 26px;
+	height: 26px;
+}
+
+.job_hunter_list{
+	margin: 30px 10px; 
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    gap:10px;
+}
+.job_hunter_item{
+	position:relative;
+	padding: 20px;
+	background-color: #fff;
+	border: 0.5px solid #eee;
+	border-radius: 10px;
+	cursor: pointer;	
+	transition: all 0.666s;
+}
+.job_hunter_info>span{
+	font-weight: 500;
+	color:#777;
+	padding-right: 5px;
+}
+.job_hunter_name{
+	font-weight: 444;
+	font-size: 23px;
+}
+.job_hunter_name:hover{
+	color: #1625D7;
+	opacity: 0.8;
+	transform: scale(1.01);
+}
+.job_hunter_item{
+	position:relative;
+	padding: 20px;
+	background-color: #fff;
+	border: 0.5px solid #eee;
+	border-radius: 10px;
+	cursor: pointer;	
+	transition: all 0.666s;
+} 
+.job_hunter_item:hover{
+	box-shadow: 0 0 10px #ccc;
+	transition: all 0.666s;
+	transform: scale(1.01);
+}
+.zaizhi>img{
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	width: 35px;
+	height: 30px;
+}
+.qiuzhi>img{
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	width: 30px; 
+	height: 30px;
+	
+}
+._page_title{
+	transition: all 0.666s;
+}
+

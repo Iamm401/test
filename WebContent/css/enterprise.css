@@ -1,0 +1,289 @@
+*{
+	 margin:0px;
+	 padding:0px;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f9f9f9;
+	overflow-x: hidden;
+}
+
+.container_{
+	
+} 
+.post_list_label{ 
+	margin: 30px 10px; 
+}
+.post_list{
+	margin: 0px 10px; 
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    gap:12px;
+}
+.post_enterprise_name{
+	font-weight: 444;
+	font-size: 20px;
+}
+.post_enterprise_name:hover{
+	color: #1625D7;
+	opacity: 0.8;
+	transform: scale(1.01);
+}
+.post_item{
+	position:relative;
+	padding: 20px;
+	background-color: #fff;
+	border: 0.5px solid #eee;
+	border-radius: 10px;
+	cursor: pointer;	
+	transition: all 0.666s;
+} 
+.post_item:hover{
+	box-shadow: 0 0 10px #ccc;
+	transition: all 0.666s;
+	transform: scale(1.01);
+}
+.post_job_demands{
+	word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 4; 
+    overflow: hidden;
+}
+.post_info_item{
+	padding: 2px 1px;
+	
+}
+.post_info_item>span{
+	font-weight: 500;
+	color:#777;
+	padding-right: 5px;
+}
+.tip{
+	color:#999;
+	font-size: 12px;
+}
+.fill_up{
+	position: absolute;
+	 top: 0;
+	 right: 0;
+}
+.fill_up>img{
+	width: 40px;
+	height: 40px;
+}
+.ping_{
+	position: absolute;
+	top: 4px;
+	right: 4px;
+} 
+.ping_>img{
+	width: 26px;
+	height: 26px;
+}
+.post_list_label{
+	font-size: 30px;
+	color: #555;
+	padding-bottom:6px;
+	border-bottom: 0.888px solid #e1e2e1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* ============================== */
+
+/*包含以下五种的链接*/
+a {
+    text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+}
+/* 正在点击的链接，鼠标在元素上按下还没有松开*/
+a:active {
+    text-decoration: none;
+}
+/* 获得焦点的时候 鼠标松开时显示的颜色*/
+a:focus {
+    text-decoration: none;
+}
+body {
+	background: #f7f8f7;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/* background: linear-gradient(to bottom right, #1B83E1, #72CAEE, #A4DDF2, #66C0E4); */
+	width: 100vw;
+	font-family: '宋体';
+}
+
+.manage_enterprise_label {
+	color: #333;
+	font-size: 33px;
+	font-weight: 666;
+	
+}
+.header{
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.post_list{
+	margin-bottom: 30px; 
+}
+
+.enterprise_waiting_process_list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-auto-rows: auto;
+	gap: 12px;
+	padding: 16.666px 20px;
+}
+
+.process_item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #fff;
+	box-shadow: 0 0 20px #f4f4f4;
+	border-radius: 5px;
+	transition: all 0.5s;
+	padding:20px;
+}
+
+.process_item:hover {
+	position: relative;
+	top: -1.666px;
+	right: -1.666px;
+	box-shadow: 0 0 20px #e1e1e1;
+	transition: all 0.5s;
+	transform: scale(1.01);
+}
+
+.enterprise_info {
+	
+}
+
+.enterprise_info_item {
+	display: flex;
+	padding: 6.666px;
+}
+
+.enterprise_info_item>label {
+	padding-right: 3.333px;
+}
+
+.opt_btn {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.opt_btn>button {
+	margin: 10px;
+}
+.enterprise_waiting_process_label{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	color: #666;
+}
+
+/* ------------------------------------------------- */
+.enterprise_processed_label{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #666;
+	
+}
+.enterprise_processed_list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-auto-rows: auto;
+	gap: 12px;
+	padding: 16.666px 20px;
+	
+}
+.enterprise_processed_list>.process_item{
+	background: rgba(197,246,215,0.1666);
+}
+.hr{
+	background: #666;
+}
+.enterprise_info{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    gap:10px;
+    padding: 20px;
+}
+.enterprise_info_item{
+}
+.enterprise_info_label{
+	font-size: 30px;
+	color: #555;
+	margin:0 10px;
+	margin-top:20px;
+	padding-bottom:6px;
+	border-bottom: 0.888px solid #e1e2e1;
+}
+.auth_opt{
+	
+	display: flex;
+}
+.del_,.update_{
+	transition: all 0.666s;
+	opacity: 0.3666;
+}
+.del_>img{
+	width: 20px;
+	height: 20px;
+	
+}
+.update_:hover,.del_:hover{
+	cursor: pointer;
+	transition: all 0.666s;
+	transform: scale(1.1);
+	opacity: 1;
+}
+.update_>img{
+	width: 23px;
+	height: 23px;
+}
+.del_{
+	position:absolute;
+	top:1px;
+	left:1px;
+}
+.update_{
+	position:absolute;
+	bottom:2px;
+	right:2px;
+	
+}
+
